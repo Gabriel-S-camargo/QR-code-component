@@ -21,6 +21,15 @@ body{
     border-radius: 20px;
 } 
 
+.container:hover{
+    background-color:hsl(0, 0%, 100%) ;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 40px -5px hsl(0, 0%, 100%) ;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .container img {
     display: flex;
     max-width: 96%;
